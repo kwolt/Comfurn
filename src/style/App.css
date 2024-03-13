@@ -105,7 +105,8 @@ a {
 	cursor: pointer;
 	background-color: inherit;
 }
-.enter__btn ,.cart__btn {
+.enter__btn,
+.cart__btn {
 	background-color: inherit;
 	cursor: pointer;
 	padding-left: 7px;
@@ -117,13 +118,13 @@ a {
 	cursor: pointer;
 }
 .cart__btn-before::before {
-	content: ''; 
-	position: absolute; 
-	top: 0px; 
-	left: 0px; 
-	width: 12px; 
-	height: 12px; 
-	background-color: red; 
+	content: '';
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 12px;
+	height: 12px;
+	background-color: red;
 	border-radius: 50%;
 }
 /* * header */
@@ -362,7 +363,7 @@ a {
 	display: flex;
 	gap: 10px;
 }
-.soc__list-item button{
+.soc__list-item button {
 	cursor: pointer;
 	background-color: inherit;
 }
